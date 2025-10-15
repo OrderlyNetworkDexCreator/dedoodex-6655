@@ -1,78 +1,78 @@
 :root {
-  --oui-font-family: 'Manrope', sans-serif;
+  --oui-font-family: 'Roboto', sans-serif;
   --oui-font-size-base: 16px;
 
   /* colors */
-  --oui-color-primary: 34 139 34;
-  --oui-color-primary-light: 57 179 57;
-  --oui-color-primary-darken: 23 99 23;
+  --oui-color-primary: 23 99 23;
+  --oui-color-primary-light: 41 169 41;
+  --oui-color-primary-darken: 15 66 15;
   --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 34 139 34;
-  --oui-color-link-light: 57 179 57;
+  --oui-color-link: 23 99 23;
+  --oui-color-link-light: 41 169 41;
 
   --oui-color-secondary: 255 255 255;
   --oui-color-tertiary: 218 218 218;
   --oui-color-quaternary: 218 218 218;
 
-  --oui-color-danger: 139 0 0;
-  --oui-color-danger-light: 194 77 77;
-  --oui-color-danger-darken: 99 0 0;
+  --oui-color-danger: 245 97 139;
+  --oui-color-danger-light: 255 132 173;
+  --oui-color-danger-darken: 194 66 99;
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 0 128 0;
-  --oui-color-success-light: 77 194 77;
-  --oui-color-success-darken: 0 99 0;
+  --oui-color-success: 41 233 169;
+  --oui-color-success-light: 77 255 205;
+  --oui-color-success-darken: 25 194 129;
   --oui-color-success-contrast: 255 255 255;
 
-  --oui-color-warning: 255 165 0;
-  --oui-color-warning-light: 255 194 77;
-  --oui-color-warning-darken: 194 99 0;
+  --oui-color-warning: 255 209 70;
+  --oui-color-warning-light: 255 227 114;
+  --oui-color-warning-darken: 194 143 0;
   --oui-color-warning-contrast: 255 255 255;
 
   --oui-color-fill: 25 25 25;
   --oui-color-fill-active: 40 46 58;
 
-  --oui-color-base-1: 40 40 40;
-  --oui-color-base-2: 30 30 30;
-  --oui-color-base-3: 25 25 25;
-  --oui-color-base-4: 20 20 20;
-  --oui-color-base-5: 15 15 15;
-  --oui-color-base-6: 10 10 10;
-  --oui-color-base-7: 55 55 55;
-  --oui-color-base-8: 5 5 5;
-  --oui-color-base-9: 0 0 0;
-  --oui-color-base-10: 0 0 0;
+  --oui-color-base-1: 93 83 123;
+  --oui-color-base-2: 74 65 103;
+  --oui-color-base-3: 55 55 77;
+  --oui-color-base-4: 36 32 55;
+  --oui-color-base-5: 27 24 44;
+  --oui-color-base-6: 17 15 33;
+  --oui-color-base-7: 51 46 66;
+  --oui-color-base-8: 10 8 22;
+  --oui-color-base-9: 6 5 15;
+  --oui-color-base-10: 14 13 18;
 
   --oui-color-base-foreground: 255 255 255;
   --oui-color-line: 255 255 255;
 
-  --oui-color-trading-loss: 139 0 0;
+  --oui-color-trading-loss: 245 97 139;
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 0 128 0;
+  --oui-color-trading-profit: 41 233 169;
   --oui-color-trading-profit-contrast: 255 255 255;
 
   /* gradients */
-  --oui-gradient-primary-start: 23 99 23;
-  --oui-gradient-primary-end: 34 139 34;
+  --oui-gradient-primary-start: 15 66 15;
+  --oui-gradient-primary-end: 23 99 23;
 
   --oui-gradient-secondary-start: 81 42 121;
   --oui-gradient-secondary-end: 176 132 233;
 
-  --oui-gradient-success-start: 1 83 68;
-  --oui-gradient-success-end: 0 128 0;
+  --oui-gradient-success-start: 25 194 129;
+  --oui-gradient-success-end: 41 233 169;
 
-  --oui-gradient-danger-start: 153 24 76;
-  --oui-gradient-danger-end: 139 0 0;
+  --oui-gradient-danger-start: 194 66 99;
+  --oui-gradient-danger-end: 245 97 139;
 
-  --oui-gradient-brand-start: 0 128 0;
-  --oui-gradient-brand-end: 34 139 34;
+  --oui-gradient-brand-start: 25 194 129;
+  --oui-gradient-brand-end: 23 99 23;
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
   --oui-gradient-brand-angle: 17.44deg;
 
-  --oui-gradient-warning-start: 152 58 8;
-  --oui-gradient-warning-end: 255 165 0;
+  --oui-gradient-warning-start: 194 143 0;
+  --oui-gradient-warning-end: 255 209 70;
 
   --oui-gradient-neutral-start: 27 29 24;
   --oui-gradient-neutral-end: 38 41 46;
@@ -95,6 +95,6 @@
 }
 
 html, body {
-  font-family: 'Manrope', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
   font-size: 16px !important;
 }
